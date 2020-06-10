@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'com.zoomint'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'com.codeborne:selenide:5.12.1'
+}
